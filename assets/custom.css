@@ -1,3 +1,145 @@
-/* 
-  Add here your own custom css styles
-*/
+/* Header */
+header.site-header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header.site-header .site-logo {
+    max-width: 150px;
+}
+
+header.site-header .site-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header.site-header .site-nav li {
+    margin: 0 15px;
+}
+
+header.site-header .site-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header.site-header .site-nav li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Product Listings */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-grid .product {
+    width: calc(33.333% - 20px);
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-grid .product:hover {
+    transform: translateY(-5px);
+}
+
+.product-grid .product img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-grid .product .product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-grid .product .product-info h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-grid .product .product-info .price {
+    color: #f39c12;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer.site-footer .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer.site-footer .footer-nav li {
+    margin: 0 15px;
+}
+
+footer.site-footer .footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+footer.site-footer .footer-nav li a:hover {
+    color: #f39c12;
+}
+
+footer.site-footer p {
+    font-size: 14px;
+    margin: 0;
+}
